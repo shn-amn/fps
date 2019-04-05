@@ -1,2 +1,23 @@
-*.class
+logs/
+target/
 *.log
+env/
+
+/.classpath
+/.project
+/.sbtserver
+/.settings
+bin/
+libexec/
+project/project/
+
+# Scala-IDE specific
+/.idea/
+/.idea_modules/
+/.ensime_cache/
+/.ensime
+
+# macOS specific
+.DS_Store
+/project/.sbtserver.lock
+/project/.sbtserver
